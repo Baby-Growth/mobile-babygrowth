@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/dialog_background"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Information"
+        android:fontFamily="@font/poppins_semibold"
+        android:textSize="18sp"
+        android:paddingBottom="8dp"/>
+
+    <View
+        android:layout_width="100dp"
+        android:layout_height="2dp"
+        android:layout_marginBottom="10dp"
+        android:background="#FFA500" />
+
+    <TextView
+        android:id="@+id/tvContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_regular"
+        android:textSize="12sp"
+        android:text="Food Texture by Age:\n\n• 6-8 Months: Provide pureed or thick-textured food.\n\n• 9-12 Months: Provide mashed or soft-textured food.\n\n• 13-24 Months: Provide regular-textured food."
+        android:paddingBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/tvAdditionalTips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_regular"
+        android:textSize="12sp"
+        android:text="Additional Tips:\n\n• Watch for allergic reactions when introducing new foods to your baby.\n\n• Create a pleasant eating environment and avoid force-feeding.\n\n• Involve your baby in the eating process by offering finger foods.\n\n• Avoid giving foods that are high in sugar, salt, and fat."
+        android:paddingBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnOk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_bg"
+        android:layout_marginTop="20dp"
+        android:text="OK"
+        android:textColor="@android:color/white"/>
+
+</LinearLayout>
